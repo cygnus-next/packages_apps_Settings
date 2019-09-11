@@ -29,6 +29,10 @@
         settings:enableCopying="true"
         settings:searchable="false"
         settings:controller="com.android.settings.deviceinfo.firmwareversion.CygnusVersionDetailPreferenceController" />
+   
+    <PreferenceScreen
+        android:layout="@layout/cygnus_logo"
+        android:key="los_logo" />
 
     <!-- Android version -->
     <Preference
