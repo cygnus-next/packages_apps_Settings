@@ -40,6 +40,8 @@ import androidx.fragment.app.FragmentActivity;
 import androidx.fragment.app.FragmentManager;
 import androidx.fragment.app.FragmentTransaction;
 
+import com.android.internal.util.UserIcons;
+
 import com.android.settings.R;
 import com.android.settings.accounts.AvatarViewMixin;
 import com.android.settings.core.HideNonSystemOverlayMixin;
@@ -69,6 +71,10 @@ public class SettingsHomepageActivity extends FragmentActivity {
 
         setHomepageContainerPaddingTop();
 
+        Context context = getApplicationContext();
+
+        mUserManager = context.getSystemService(UserManager.class);
+
         final Toolbar toolbar = findViewById(R.id.search_action_bar);
         FeatureFactory.getFactory(this).getSearchFeatureProvider()
                 .initSearchToolbar(this /* activity */, toolbar, SettingsEnums.SETTINGS_HOMEPAGE);
@@ -85,6 +91,7 @@ public class SettingsHomepageActivity extends FragmentActivity {
             }
         });
         //getLifecycle().addObserver(avatarViewMixin);
+        getLifecycle().addObserver(new HideNonSystemOverlayMixin(this));
 
         if (!getSystemService(ActivityManager.class).isLowRamDevice()) {
             // Only allow contextual feature on high ram devices.
