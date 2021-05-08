@@ -21,6 +21,11 @@
     android:title="@string/firmware_version"
     settings:keywords="@string/keywords_android_version">
 
+   <PreferenceScreen
+       android:layout="@layout/cygnus_logo_layout"
+       android:key="cygnus_logo" />
+
+
     <!-- CygnusOS version -->
     <Preference
         android:key="cygnus_version"
