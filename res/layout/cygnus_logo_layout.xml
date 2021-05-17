@@ -23,6 +23,5 @@
         android:layout_height="match_parent"
         android:adjustViewBounds="true"
         android:scaleType="centerInside"
-        android:tint="?android:attr/colorAccent"
         android:src="@drawable/cygnus_logo" />
 </LinearLayout>
