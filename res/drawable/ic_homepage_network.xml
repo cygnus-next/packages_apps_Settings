@@ -1,33 +1,30 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!--
-  Copyright (C) 2018 The Android Open Source Project
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="30dp"
+    android:height="30dp"
+    android:viewportWidth="128"
+    android:viewportHeight="128">
 
-  Licensed under the Apache License, Version 2.0 (the "License");
-  you may not use this file except in compliance with the License.
-  You may obtain a copy of the License at
-
-       http://www.apache.org/licenses/LICENSE-2.0
-
-  Unless required by applicable law or agreed to in writing, software
-  distributed under the License is distributed on an "AS IS" BASIS,
-  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-  See the License for the specific language governing permissions and
-  limitations under the License.
-  -->
-
-<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
-
-    <item>
-        <com.android.settingslib.widget.AdaptiveIconShapeDrawable
-            android:width="@dimen/dashboard_tile_image_size"
-            android:height="@dimen/dashboard_tile_image_size"
-            android:color="@color/homepage_network_background" />
-    </item>
-
-    <item
-        android:width="@dimen/dashboard_tile_foreground_image_size"
-        android:height="@dimen/dashboard_tile_foreground_image_size"
-        android:start="@dimen/dashboard_tile_foreground_image_inset"
-        android:top="@dimen/dashboard_tile_foreground_image_inset"
-        android:drawable="@drawable/ic_settings_wireless" />
-</layer-list>
+    <group>
+        <path
+            android:fillColor="#0074D9"
+            android:fillAlpha="0.25"
+            android:pathData="M 64 0 C 99.3462239892 0 128 28.6537760108 128 64 C 128 99.3462239892 99.3462239892 128 64 128 C 28.6537760108 128 0 99.3462239892 0 64 C 0 28.6537760108 28.6537760108 0 64 0 Z" />
+        <path
+            android:fillColor="#0074D9"
+            android:fillType="evenOdd"
+            android:pathData="M63.888 52.8887C69.7456 52.8887 74.4938 57.637 74.4938 63.4946C74.4938 68.1124 71.5426 72.0408 67.4233 73.497V91.7768H60.3527V73.497C56.2335 72.0408 53.2822 68.1124 53.2822 63.4946C53.2822 57.637 58.0304 52.8887 63.888 52.8887ZM63.888 59.9594C65.8406 59.9594 67.4233 61.5421 67.4233 63.4946C67.4233 65.4468 65.8406 67.0299 63.888 67.0299C61.9355 67.0299 60.3527 65.4468 60.3527 63.4946C60.3527 61.5421 61.9355 59.9594 63.888 59.9594Z" />
+        <path
+            android:fillColor="#0074D9"
+            android:pathData="M46.3891 45.998C41.9109 50.4763 39.1411 56.663 39.1411 63.4967C39.1411 71.1947 42.6561 78.0719 48.1686 82.6105L53.2013 77.5777C48.9539 74.3493 46.2116 69.2433 46.2116 63.4967C46.2116 58.6155 48.19 54.1965 51.3887 50.9977L46.3891 45.998Z" />
+        <path
+            android:fillColor="#0074D9"
+            android:pathData="M76.387 50.9977C79.5857 54.1965 81.5644 58.6155 81.5644 63.4971C81.5644 69.2436 78.8221 74.35 74.5744 77.5784L79.6069 82.6112C85.1198 78.0726 88.6349 71.1951 88.6349 63.4971C88.6349 56.6632 85.865 50.4764 81.3865 45.998L76.387 50.9977Z" />
+        <path
+            android:fillColor="#0074D9"
+            android:pathData="M25 63.4979C25 52.7592 29.3526 43.0373 36.3898 36L41.3895 40.9996C35.6317 46.7574 32.0705 54.7117 32.0705 63.4979C32.0705 72.2838 35.6317 80.2381 41.3894 85.9957L36.3898 90.9956C29.3526 83.9583 25 74.2363 25 63.4979Z" />
+        <path
+            android:fillColor="#0074D9"
+            android:pathData="M91.3857 90.9964C98.4234 83.959 102.776 74.2367 102.776 63.4983C102.776 52.7594 98.4234 43.0374 91.3857 36L86.3861 40.9996C92.144 46.7575 95.7055 54.7119 95.7055 63.4983C95.7055 72.2845 92.144 80.2389 86.3861 85.9968L91.3857 90.9964Z" />
+    </group>
+</vector>

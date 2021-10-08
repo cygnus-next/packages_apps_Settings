@@ -1,27 +1,21 @@
-<!--
-  Copyright (C) 2018 The Android Open Source Project
-
-  Licensed under the Apache License, Version 2.0 (the "License");
-  you may not use this file except in compliance with the License.
-  You may obtain a copy of the License at
-
-       http://www.apache.org/licenses/LICENSE-2.0
-
-  Unless required by applicable law or agreed to in writing, software
-  distributed under the License is distributed on an "AS IS" BASIS,
-  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-  See the License for the specific language governing permissions and
-  limitations under the License.
-  -->
+<?xml version="1.0" encoding="utf-8"?>
 <vector xmlns:android="http://schemas.android.com/apk/res/android"
     android:width="30dp"
     android:height="30dp"
-    android:viewportWidth="30"
-    android:viewportHeight="30">
-    <path
-        android:pathData="M10,2.8627L20.125,2.8627A3,3 0,0 1,23.125 5.8627L23.125,26A3,3 0,0 1,20.125 29L10,29A3,3 0,0 1,7 26L7,5.8627A3,3 0,0 1,10 2.8627z"
-        android:fillColor="#16EC92"/>
-    <path
-        android:pathData="M12.375,1C12.375,0.4477 12.8227,0 13.375,0H16.875C17.4273,0 17.875,0.4477 17.875,1V2.8627H12.375V1Z"
-        android:fillColor="#16EC92"/>
+    android:viewportWidth="128"
+    android:viewportHeight="128">
+
+    <group>
+        <path
+            android:fillColor="#7FDBFF"
+            android:fillAlpha="0.25"
+            android:pathData="M 64 0 C 99.3462239892 0 128 28.6537760108 128 64 C 128 99.3462239892 99.3462239892 128 64 128 C 28.6537760108 128 0 99.3462239892 0 64 C 0 28.6537760108 28.6537760108 0 64 0 Z" />
+        <path
+            android:fillColor="#39CCCC"
+            android:pathData="M79 85.5385C79 87.4502 76.8361 89 74.1667 89L54.8333 89C52.164 89 50 87.4502 50 85.5385L50 47.4615C50 45.5497 52.164 44 54.8333 44L74.1667 44C76.8361 44 79 45.5497 79 47.4615L79 85.5385Z" />
+        <path
+            android:fillColor="#39CCCC"
+            android:fillType="evenOdd"
+            android:pathData="M47.2 47.2L47.2 83.6C47.2 88.2392 50.9608 92 55.6 92L72.4 92C77.0393 92 80.8 88.2392 80.8 83.6L80.8 47.2C80.8 42.5607 77.0393 38.8 72.4 38.8C72.4 37.2536 71.1465 36 69.6 36L58.4 36C56.8536 36 55.6 37.2536 55.6 38.8C50.9608 38.8 47.2 42.5607 47.2 47.2ZM52.8 47.2L52.8 83.6C52.8 85.1464 54.0536 86.4 55.6 86.4L72.4 86.4C73.9465 86.4 75.2 85.1464 75.2 83.6L75.2 47.2C75.2 45.6536 73.9465 44.4 72.4 44.4L55.6 44.4C54.0536 44.4 52.8 45.6536 52.8 47.2Z" />
+    </group>
 </vector>
